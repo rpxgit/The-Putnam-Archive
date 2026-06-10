@@ -8,7 +8,6 @@ This unofficial repository contains problem statements, solutions, and competiti
 
 A structured Git mirror and offline archive of the **William Lowell Putnam Mathematical Competition** papers. This repository provides an intuitive, hierarchical structure for raw exam questions, complete solution papers, and historical statistics spanning from 1985 to the present.
 
-
 ---
 
 ## 🗺️ Archive Overview
@@ -26,39 +25,48 @@ The repository is divided by category (Problems vs. Solutions), and then organiz
 | **1985 – 1994** | ✅ Yes | ✅ Yes | ❌ *N/A* | ❌ *N/A* | 🟡 Exam Statements Only |
 
 ---
+## ⚖️ Copyright & Attributions
 
-## 📁 Directory Structure
-
-The repository utilizes a hybrid structure separated by category to prevent spoilers and keep files cleanly organized by year:
-
-```text
-├── Problems without Solutions (1985-1994)/                 # Original Exam Sheets
-│   ├── 1985/
-│   │   ├── 1985_problems.tex
-│   │   └── 1985_problems.pdf
-│   ├── 1995/
-│   │   ├── 1985_problems.tex
-│   │   └── 1986_problems.pdf
-│   └── ...
-├── Problems & Solutions (1985-1994)/                       # Original Exam Sheets
-│   ├── TeX/
-│   │   ├── 1995.tex
-│   │   └── 1995s.tex
-│   ├── PDF/                                          # Compiled Solutions
-│   │   ├── 1995.pdf
-│   │   └── 1995s.pdf
-│   └── ...
-├── Solutions/               # Compiled Solutions
-│   ├── 1995/
-│   │   ├── 1995_solutions.tex
-│   │   └── 1995_solutions.pdf
-│   └── ...
-└── README.md
-
-
+* **Problems:** The text and compilation of the exam questions are copyrighted by the **Mathematical Association of America (MAA)**. They are included here for educational, archival, and non-commercial study purposes.
+* **Solutions:** The solution documents available from 1995 onward were compiled using various collaborative academic efforts by **Manjul Bhargava, Kiran Kedlaya, and Lenhard Ng**. 
+---
 ## 🛠️ Compilation Note (For `.tex` Files)
 To compile the source `.tex` documents locally, make sure you have a standard LaTeX distribution installed (such as TeX Live, MiKTeX, or MacTeX). 
 
 You can compile any individual file via your CLI:
 ```bash
 pdflatex 1995_problems.tex
+
+----
+
+
+## 📁 Directory Structure
+
+The repository utilizes a hybrid structure separated by category to prevent spoilers and keep files cleanly organized by year:
+
+```text
+├── Problems without Solutions (1985-1994)/                  # Original Exam Sheets without Solutions
+│   ├── Tex/
+│   │   ├── 1985.tex
+│   │   └── ...
+│   ├── PDF/
+│   │   ├── 1985.pdf
+│   │   └── ...
+│   │
+├── Problems & Solutions (1985-1994)/                       # Original Exam Sheets with Solutions
+│   ├── TeX/
+│   │   ├── 1995.tex
+│   │   └── 1995s.tex
+│   ├── PDF/                                                # Compiled with Solutions
+│   │   ├── 1995.pdf
+│   │   └── 1995s.pdf
+│   |
+└── README.md
+
+
+
+
+
+
+
+
