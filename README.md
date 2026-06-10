@@ -25,19 +25,6 @@ The repository is divided by category (Problems vs. Solutions), and then organiz
 | **1985 – 1994** | ✅ Yes | ✅ Yes | ❌ *N/A* | ❌ *N/A* | 🟡 Exam Statements Only |
 
 ---
-## ⚖️ Copyright & Attributions
-
-* **Problems:** The text and compilation of the exam questions are copyrighted by the **Mathematical Association of America (MAA)**. They are included here for educational, archival, and non-commercial study purposes.
-* **Solutions:** The solution documents available from 1995 onward were compiled using various collaborative academic efforts by **Manjul Bhargava, Kiran Kedlaya, and Lenhard Ng**. 
----
-## 🛠️ Compilation Note (For `.tex` Files)
-To compile the source `.tex` documents locally, make sure you have a standard LaTeX distribution installed (such as TeX Live, MiKTeX, or MacTeX). 
-
-You can compile any individual file via your CLI:
-```bash
-pdflatex 1995_problems.tex
-```
-----
 
 
 ## 📁 Directory Structure
@@ -62,10 +49,22 @@ The repository utilizes a hybrid structure separated by category to prevent spoi
 │   │   └── 1995s.pdf
 │   |
 └── README.md
+```
 
+---
+## 🛠️ Compilation Note (For `.tex` Files)
+To compile the source `.tex` documents locally, make sure you have a standard LaTeX distribution installed (such as TeX Live, MiKTeX, or MacTeX). 
 
+You can compile any individual file via your CLI:
+```bash
+pdflatex 1995_problems.tex
+```
 
+---
+## ⚖️ Copyright & Attributions
 
+* **Problems:** The text and compilation of the exam questions are copyrighted by the **Mathematical Association of America (MAA)**. They are included here for educational, archival, and non-commercial study purposes.
+* **Solutions:** The solution documents available from 1995 onward were compiled using various collaborative academic efforts by **Manjul Bhargava, Kiran Kedlaya, and Lenhard Ng**. 
 
 
 
