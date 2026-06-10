@@ -36,7 +36,7 @@ To compile the source `.tex` documents locally, make sure you have a standard La
 You can compile any individual file via your CLI:
 ```bash
 pdflatex 1995_problems.tex
-
+```
 ----
 
 
