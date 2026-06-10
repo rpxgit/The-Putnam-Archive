@@ -5,7 +5,7 @@ This unofficial repository contains problem statements, solutions, and competiti
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
-[![Upstream Source](https://img.shields.io/badge/Source-Kiran%20Kedlaya%20Archive-orange.svg)](https://kskedlaya.org/putnam-archive/)
+[![Upstream Source](https://img.shields.io/badge/Source-R's%%20Archive-orange.svg)](https://kskedlaya.org/putnam-archive/)
 
 A structured Git mirror and offline archive of the **William Lowell Putnam Mathematical Competition** papers. This repository stores clean copies of exam questions, complete solution papers, and historical statistics spanning from 1985 to the present.
 
