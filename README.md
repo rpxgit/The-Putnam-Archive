@@ -22,9 +22,9 @@ The repository is organized chronologically. File availability changes based on 
 
 ### 📊 Format Availability Matrix
 
-| Era Range | Problems (`.tex`) | Problems (`.pdf`) | Solutions (`.tex`) | Solutions (`.pdf`) | Dataset Status |
+| Timeline  | Problems (`.tex`) | Problems (`.pdf`) | Solutions (`.tex`) | Solutions (`.pdf`) | Dataset Status |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **1995 – 2025** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | 🟢 Full Problems + Solutions |
+| **1995 – Present** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | 🟢 Full Problems + Solutions |
 | **1985 – 1994** | ✅ Yes | ✅ Yes | ❌ *N/A* | ❌ *N/A* | 🟡 Exam Statements Only |
 
 ---
