@@ -40,7 +40,7 @@ The repository utilizes a hybrid structure separated by category to prevent spoi
 │   │   ├── 1985.pdf
 │   │   └── ...
 │   │
-├── Problems & Solutions (1985-1994)/                       # Original Exam Sheets with Solutions
+├── Problems & Solutions (1995-Present)/                       # Original Exam Sheets with Solutions
 │   ├── TeX/
 │   │   ├── 1995.tex
 │   │   └── 1995s.tex
